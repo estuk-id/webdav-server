@@ -1,4 +1,4 @@
-const { v2: webdav } = require('webdav-server');
+const webdav = require('webdav-server').v2;
 const express = require('express');
 const path = require('path');
 
